@@ -42,8 +42,9 @@ class User < ApplicationRecord
   has_many :donations
 
   validates :email, presence: true, 'valid_email_2/email': true, uniqueness: {case_sensitive: false}
-
   before_validation :normalize_attributes
+
+  accepts_nested_attributes_for :user_profile
 
   def self.find_or_create_from_sso(payload)
     email = payload.fetch("email")&.downcase

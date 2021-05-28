@@ -4,7 +4,7 @@ require "sidekiq/web"
 require "sidekiq-scheduler/web"
 
 Rails.application.routes.draw do
-  resources :users, only: [] do
+  resources :users, only: [:create] do
     collection do
       get "/current" => "users#current", :constraints => {format: "json"}
     end
