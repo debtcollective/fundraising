@@ -23,7 +23,7 @@ gem 'redis-namespace', '1.8.1'
 gem 'ffi', '~> 1.9', '>= 1.9.25'
 gem 'rack-cors', '1.1.1'
 gem 'discourse_api', '0.45.0'
-gem 'data_migrate', '7.0.0'
+gem 'data_migrate', '7.0.1'
 gem 'paper_trail', '12.0.0'
 
 # Validations
