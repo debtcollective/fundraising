@@ -47,7 +47,7 @@ gem 'stripe', '5.31.0'
 
 # Authentication
 gem 'jwt', '~> 2.2.1'
-gem 'recaptcha', '~> 5.2', '>= 5.2.1'
+gem 'recaptcha', '~> 5.8'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '1.7.4', require: false
