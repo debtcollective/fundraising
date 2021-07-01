@@ -80,7 +80,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.6'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'solargraph', '0.40.4'
+  gem 'solargraph', '0.42.3'
 end
 
 group :test do
